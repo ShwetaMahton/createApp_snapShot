@@ -3,12 +3,11 @@ name: CI
 # Run this workflow every time a commit gets pushed to main or a pull request gets opened against main
 on:
   push:
-    branches:
+   branches:
       - main
   pull_request:
-    branches: 
-      
-      - feature*
+   branches: 
+   - feature*
 
 jobs:
     build:
